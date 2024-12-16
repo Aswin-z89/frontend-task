@@ -1,0 +1,336 @@
+/* Transparent Navbar with Blur Effect */
+.transparent-navbar {
+  background-color: rgba(255, 255, 255, 0.2); /* Light transparent white */
+  backdrop-filter: blur(10px); /* Adds a blur effect */
+  -webkit-backdrop-filter: blur(10px); /* Safari support */
+  transition: background-color 0.3s ease-in-out; /* Smooth transition */
+}
+
+/* Navbar Links */
+.transparent-navbar .nav-link {
+  color: rgb(27, 25, 25) !important; /* White color for links */
+  font-weight: 500;
+  margin-right: 15px;
+  transition: color 0.3s ease-in-out;
+}
+
+/* Active Link Hover Effect */
+.transparent-navbar .nav-link:hover {
+  color: #f8d7da !important; /* Light color for hover effect */
+}
+
+/* Button Styling */
+.transparent-navbar .btn {
+  background-color: #1c067c; /* Primary blue */
+  color: white;
+  border: none;
+  border-radius: 20px;
+  padding: 8px 15px;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.transparent-navbar .btn:hover {
+  background-color: #02106d; /* Darker blue on hover */
+}
+
+/* Hero Section with Background Image */
+.hero-section {
+  background-image: url("cleaning image/team.jpeg"); /* Replace with your image path */
+  background-size: cover; /* Ensures the image covers the entire area */
+  background-position: center; /* Centers the image */
+  background-repeat: no-repeat; /* Prevents the image from repeating */
+  position: relative; /* For additional styling (if needed) */
+  padding: 100px 0; /* Adds spacing above and below the content */
+  color: white; /* Ensures text is white for readability */
+}
+
+/* Optional: Add an Overlay for Better Contrast */
+.hero-section::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5); /* Black overlay with 50% opacity */
+  z-index: 1;
+}
+
+/* Ensures Content Stays on Top of Overlay */
+.hero-section .container {
+  position: relative;
+  z-index: 2;
+}
+
+.transparent-navbar {
+  background: transparent; /* Makes navbar background transparent */
+  transition: all 0.3s ease; /* Smooth transition on scroll (optional) */
+}
+
+.navbar-brand img {
+  height: 40px; /* Adjust the height of the logo */
+}
+
+.nav-link {
+  color: #270768; /* White text for links */
+  transition: color 0.3s ease; /* Smooth hover effect */
+}
+
+.nav-link:hover {
+  color: #070a6e; /* Change link color on hover */
+}
+.service-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  border: 1px solid rgba(0, 123, 255, 0.2); /* Semi-transparent border */
+  border-radius: 8px; /* Rounded corners */
+  background-color: #f8f9fa; /* Light background */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+}
+
+.service-box i {
+  font-size: 2.5rem; /* Larger icon size for better visibility */
+  color: #007bff; /* Blue color for icons */
+}
+
+.service-box h3 {
+  margin-top: 15px; /* Slightly below the icon */
+  font-weight: bold; /* Bold text */
+  color: #333; /* Dark text color */
+}
+
+.service-box p {
+  margin-top: 10px;
+  color: #666; /* Lighter text for description */
+}
+
+.bg-image-one {
+  background-image: url("cleaning image/Health, Household and Baby Care (1).jpeg"); /* Replace with the actual path to your image */
+  background-size: cover; /* Cover the entire section */
+  background-position: center; /* Center the image */
+  padding: 80px 0; /* Add some padding to create space around content */
+  border-radius: 20px; /* Optional: rounded corners for aesthetic */
+  color: #fff; /* White text for better readability on the background */
+}
+.service-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  border: 1px solid rgba(0, 123, 255, 0.2); /* Semi-transparent border */
+  border-radius: 8px; /* Rounded corners */
+  background-color: rgba(
+    255,
+    255,
+    255,
+    0.7
+  ); /* Semi-transparent white background */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+}
+.service-box i {
+  font-size: 2.5rem; /* Larger icon size for better visibility */
+  color: #007bff; /* Blue color for icons */
+}
+.service-box h3 {
+  margin-top: 15px; /* Slightly below the icon */
+  font-weight: bold; /* Bold text */
+  color: #333; /* Dark text color */
+}
+.service-box p {
+  margin-top: 10px;
+  color: #666; /* Lighter text for description */
+}
+
+.trust-box {
+  background-color: #003366; /* Navy background */
+  padding: 30px; /* Padding inside the box */
+  border: 2px solid #004080; /* Darker navy border */
+  border-radius: 10px; /* Rounded corners for the box */
+  margin-bottom: 20px; /* Space between boxes */
+  color: white; /* White text for readability */
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+}
+.trust-box i {
+  font-size: 2rem; /* Larger icon size for visibility */
+  margin-bottom: 15px; /* Space below the icon */
+}
+.trust-box h3 {
+  font-weight: bold; /* Bold subheading */
+  margin-bottom: 15px; /* Space below the heading */
+}
+.trust-box p {
+  font-size: 1rem; /* Normal paragraph size */
+  line-height: 1.5; /* Improved line spacing for readability */
+}
+
+.bg-image-two {
+  background-image: url("cleaning image/Housekeeping, Deep Cleaning & Move-In Cleaning in OKC.jpeg"); /* Replace with the actual path to your image */
+  background-size: cover; /* Ensure the image covers the entire section */
+  background-position: center; /* Center the background image */
+  padding: 50px 0; /* Add padding to push content down from the top */
+  color: #131313; /* Ensure text is visible on the dark background */
+  border-radius: 10px; /* Optional: rounded corners */
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
+}
+
+.service-card {
+  background-color: rgba(255, 255, 255, 0.7); /* Semi-transparent background */
+  padding: 30px;
+  border-radius: 10px;
+  text-align: center;
+  margin-bottom: 20px;
+  transition: transform 0.3s, box-shadow 0.3s;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.service-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.service-card i {
+  font-size: 3rem;
+  color: #007bff; /* Primary blue color */
+}
+
+.service-card h3 {
+  font-weight: bold;
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+
+.service-card p {
+  font-size: 1rem;
+  color: #333;
+}
+
+.team-image {
+  width: 150px; /* Adjust width as needed */
+  height: 150px; /* Ensure square dimensions */
+  object-fit: cover; /* Ensures proper cropping without stretching */
+}
+/* Video Section Container */
+/* Video Container */
+.video-container {
+  position: relative;
+  width: 100%;
+  max-width: 600px; /* Adjust size as needed */
+  margin: auto;
+}
+
+.video-bg {
+  width: 100%;
+  border-radius: 10px; /* Optional: rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+/* Blue Circular Play Button */
+.play-icon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 120px; /* Diameter of circle */
+  height: 120px;
+  background-color: #2196f3; /* Bright blue color */
+  border-radius: 50%; /* Perfect circle */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  z-index: 10; /* Place it above the video */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Shadow for depth */
+}
+
+.play-icon i {
+  color: #fff; /* White triangle icon */
+  font-size: 60px; /* Icon size */
+}
+
+/* Hover Effect */
+.play-icon:hover {
+  transform: translate(-50%, -50%) scale(1.1); /* Slight zoom */
+  box-shadow: 0 12px 20px rgba(0, 0, 0, 0.3); /* Enhanced shadow */
+}
+
+/* Button Styling */
+.btn-primary {
+  background-color: #007bff; /* Mid-blue */
+  border: none;
+  padding: 10px 30px;
+  font-size: 18px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}
+
+.bg-mid-blue {
+  background-color: #0277bd; /* Mid-blue background */
+}
+.text-white {
+  color: #fff; /* White text */
+}
+.py-5 {
+  padding-top: 3rem; /* Larger padding for spacing */
+  padding-bottom: 3rem;
+}
+.container {
+  max-width: 1200px; /* Ensure container is not too wide */
+  margin: 0 auto;
+}
+h2 {
+  font-size: 2.5rem; /* Larger heading size */
+  font-weight: 700;
+}
+p {
+  font-size: 1.2rem; /* Slightly larger text for readability */
+  margin: 0;
+}
+.footer {
+  background-color: #f8f9fa; /* Light gray background */
+  color: #6c757d; /* Muted text color */
+}
+
+.footer h5 {
+  color: #333; /* Dark text for headings */
+  font-size: 1.1rem;
+}
+
+.footer a {
+  transition: color 0.3s;
+}
+
+.footer a:hover {
+  color: #0277bd; /* Light blue hover effect */
+}
+
+.footer .input-group .form-control {
+  border-radius: 0;
+}
+
+.footer .input-group .btn-primary {
+  background-color: #0277bd;
+  border-color: #0277bd;
+}
+
+.footer .input-group .btn-primary:hover {
+  background-color: #01579b;
+  border-color: #01579b;
+}
+.footer .fab {
+  font-size: 1.2rem;
+  transition: color 0.3s;
+}
+
+.footer .fab:hover {
+  color: #0277bd;
+}
